@@ -36,7 +36,9 @@
 
             <h3>Où ?</h3>
             <p><b>Pavillon André-Aisenstadt</b>, Université de Montréal, campus principal.</p>
-            <button type="button" class="btn btn-link btn-block">Voir la carte</button>
+            <button type="button" class="btn btn-link btn-block" data-toggle="modal" data-target="#map">
+              Voir la carte
+            </button>
 
             <h3>Qui ?</h3>
             <p><b>12 équipes de 4 étudiant(e)s</b> de 4 différents CÉGEPs réunies pour deux jours de compétition amicale et de programmation intense.</p>
@@ -55,6 +57,7 @@
         </div>
       </div>
     </section>
+
     <section id="schedule">
       <div class="container">
         <h2>Programme</h2>
@@ -126,6 +129,7 @@
         </div>
       </div>
     </section>
+
     <section id="pictures">
       <div class="container">
         <h2>Photos</h2>
@@ -171,11 +175,13 @@
         </div>
       </div>
     </section>
+
     <section id="faq">
       <div class="container">
         <h2>Foire aux questions</h2>
       </div>
     </section>
+
     <section id="organizers">
       <div class="container">
         <h2>Organisateurs</h2>
@@ -253,11 +259,37 @@
         </div>
       </div>
     </section>
+
     <section id="partners">
       <div class="container">
         <h2>Partenaires</h2>
       </div>
     </section>
+
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="mapLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mapLabel">Pavillon André-Aisenstadt</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-1by1">
+              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.3514135383894!2d-73.6186646!3d45.5030041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1484509190920"></iframe>
+            </div>
+            <div class="d-flex justify-content-between">
+              <a href="http://plancampus.umontreal.ca/#iw|376">Plan Campus</a>
+              <a href="http://plancampus.umontreal.ca/uploads/tx_lbocampusmap/Depliant-plan-campus-HR.pdf">Carte imprimable</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </main>
 
     <footer>
