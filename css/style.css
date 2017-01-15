@@ -10,3 +10,7 @@ button {
 #schedule th, #schedule td {
   border: none;
 }
+
+#partners .col-md {
+  margin: .5em 0;
+}
