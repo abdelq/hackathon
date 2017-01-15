@@ -10,6 +10,10 @@ button {
   cursor: pointer;
 }
 
+ul {
+  margin-bottom: 0;
+}
+
 main {
   color: #e6ffff;
   background-color: #0c141f;
@@ -43,10 +47,7 @@ main .btn-link:hover {
 
 #udem {
   background-color: #000;
-}
-
-#udem .container {
-  padding-top: .5rem;
+  padding: .5rem 0;
 }
 
 #udem a {
