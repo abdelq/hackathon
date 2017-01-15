@@ -11,6 +11,10 @@ button {
   border: none;
 }
 
+#faq h6 {
+  font-weight: bold;
+}
+
 #partners .row {
   margin: .5em 0;
 }
