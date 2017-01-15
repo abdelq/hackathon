@@ -1,6 +1,25 @@
+h2 {
+  color: #6fc3df;
+}
+
+h3 {
+  color: #df740c;
+}
+
 button {
   cursor: pointer;
 }
+
+main {
+  color: #e6ffff;
+  background-color: #0c141f;
+}
+
+main a, main a:hover, main .btn-link {
+  color: #ffe64d;
+}
+
+/* Sections */
 
 #schedule th {
   width: 50%;
@@ -13,6 +32,11 @@ button {
 
 #faq h6 {
   font-weight: bold;
+}
+
+#partners {
+  background-color: #fff;
+  padding: .5em 0;
 }
 
 #partners .row {

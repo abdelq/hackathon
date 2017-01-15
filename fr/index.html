@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-md">
             <h3 class="text-center">25 février</h3>
-            <table class="table table-hover">
+            <table class="table">
               <tr>
                 <th scope="row">08 h 30 – 09 h 15</th>
                 <td>Accueil/Déjeuner</td>
@@ -99,7 +99,7 @@
 
           <div class="col-md">
             <h3 class="text-center">26 février</h3>
-            <table class="table table-hover">
+            <table class="table">
               <tr>
                 <th scope="row">10 h 00 – 10 h 30</th>
                 <td>Accueil</td>
@@ -282,9 +282,35 @@
       </div>
     </section>
 
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="mapLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mapLabel">Pavillon André-Aisenstadt</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-1by1">
+              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.3514135383894!2d-73.6186646!3d45.5030041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1484509190920"></iframe>
+            </div>
+            <div class="d-flex justify-content-between">
+              <a href="http://plancampus.umontreal.ca/#iw|376">Plan Campus</a>
+              <a href="http://plancampus.umontreal.ca/uploads/tx_lbocampusmap/Depliant-plan-campus-HR.pdf">Carte imprimable</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <footer>
     <section id="partners" class="hidden-xs-down">
       <div class="container">
-        <h2>Partenaires</h2>
         <div class="row align-items-center">
           <div class="col">
             <a href="http://bdeb.qc.ca">
@@ -322,44 +348,6 @@
         </div>
       </div>
     </section>
-
-    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="mapLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="mapLabel">Pavillon André-Aisenstadt</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2796.3514135383894!2d-73.6186646!3d45.5030041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c5cdca60001c62e!2sUniversit%C3%A9+de+Montr%C3%A9al+-+Pavillon+Andr%C3%A9-Aisenstadt!5e0!3m2!1sen!2sus!4v1484509190920"></iframe>
-            </div>
-            <div class="d-flex justify-content-between">
-              <a href="http://plancampus.umontreal.ca/#iw|376">Plan Campus</a>
-              <a href="http://plancampus.umontreal.ca/uploads/tx_lbocampusmap/Depliant-plan-campus-HR.pdf">Carte imprimable</a>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-          </div>
-          <div class="col">
-          </div>
-          <div class="col">
-          </div>
-        </div>
-      </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
