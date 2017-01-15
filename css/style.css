@@ -45,19 +45,19 @@ main .btn-link:hover {
   margin: .5rem 0;
 }
 
-#udem {
+#umontreal {
   background-color: #000;
   padding: .5rem 0;
 }
 
-#udem a {
+#umontreal a {
   color: #fff;
 }
 
-#udem img {
+#umontreal img {
   max-height: 64px;
 }
 
-#udem .col:nth-child(2) {
+#umontreal .col:nth-child(2) {
   font-size: smaller;
 }
