@@ -81,3 +81,8 @@ main .btn-link:focus {
   text-shadow: 0 0 5px rgba(36,198,224,1.0);
   text-decoration: underline;
 }
+
+.carousel-inner {
+  filter: contrast(140%) sepia(100%) hue-rotate(124deg);
+  box-shadow: 0 0 15px rgb(21,171,195);
+}
