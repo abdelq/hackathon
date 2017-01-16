@@ -5,10 +5,6 @@
   src: url('/fonts/TR2N.woff2');
 }
 
-/*html, body {
-  height: 100%;
-}*/
-
 body {
   position: relative;
 }
@@ -69,10 +65,6 @@ body {
 main {
   margin-top: 54px;
 }
-
-/*header {
-  margin-top: 54px;
-}*/
 
 nav,
 .modal-content {
