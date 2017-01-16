@@ -70,6 +70,7 @@ footer {
   margin-bottom: 0;
 }
 
-#umontreal .col-sm:nth-child(2) {
+#umontreal .col-sm:nth-child(2),
+#copyrights {
   font-size: smaller;
 }
