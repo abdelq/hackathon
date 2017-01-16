@@ -1,5 +1,10 @@
 /* General */
 
+@font-face {
+  font-family: 'TR2N';
+  src: url('/fonts/TR2N.woff2');
+}
+
 /*html, body {
   height: 100%;
 }*/
@@ -141,7 +146,11 @@ a:focus,
   box-shadow: 0 0 2em rgb(21,171,195);
 }
 
-.navbar-brand,
+.navbar-brand {
+  font-family: 'TR2N', 'Inconsolata', monospace;
+  font-weight: bold;
+}
+
 .active {
   font-weight: bold;
 }
