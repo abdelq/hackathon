@@ -8,9 +8,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
   </head>
-  <body>
-    <header>
+  <body data-spy="scroll" data-target="#menu">
+    <header id="top">
     </header>
+
+    <nav class="navbar navbar-toggleable-md fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Basculer la navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#top">Hackathon 2017 - DIRO</a>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Programme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pictures">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#organizers">Organisateurs</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <main>
     <section id="about">
@@ -48,7 +75,7 @@
             <p><b>12 équipes de 4 étudiant(e)s</b> de 4 différents CÉGEPs réunies pour deux jours de compétition amicale et de programmation intense.</p>
           </div>
         </div>
-        <br />
+
         <div class="row align-items-center">
           <div class="col-lg">
             <h2>Le défi</h2>

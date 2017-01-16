@@ -26,7 +26,6 @@ $(function() {
         var lines = replays[game][0].split('\n');
 
         first = lines[0] || lines[1];
-        console.log(replays[game][frame]);
       }
 
     }, 130);

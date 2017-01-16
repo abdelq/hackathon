@@ -1,7 +1,11 @@
 /* General */
 
-html, body {
+/*html, body {
   height: 100%;
+}*/
+
+body {
+  position: relative;
 }
 
 button {
@@ -31,14 +35,15 @@ section {
   padding: 1rem 0;
 }
 
-#umontreal,
-#copyrights {
-  font-size: smaller;
-}
-
 #umontreal a,
 #copyrights {
   color: #fff;
+  text-shadow: none;
+}
+
+#umontreal,
+#copyrights {
+  font-size: smaller;
 }
 
 #umontreal img {
@@ -57,31 +62,43 @@ body {
 }
 
 main {
+  margin-top: 54px;
+}
+
+/*header {
+  margin-top: 54px;
+}*/
+
+nav,
+.modal-content {
+  background-color: #000;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgba(21,171,195,1.0);
+}
+
+main,
+.modal * {
   color: rgba(21,171,195,1.0);
   text-shadow: 0 0 1px rgba(21,171,195,0.7);
 }
 
 main * {
-  opacity: .96;
+  opacity: .95;
 }
 
 main *:hover {
   opacity: 1;
 }
 
-.modal,
-.modal .close {
-  color: rgba(21,171,195,0.7);
-  text-shadow: 0 0 5px rgba(21,171,195,0.7);
-  opacity: 1;
-}
-
-.modal-content {
-  background-color: #000;
-}
-
 .modal-header {
-  border-bottom: 1px solid rgba(21,171,195,0.7);
+  border: none;
 }
 
 h2, h3 {
@@ -94,22 +111,19 @@ h5 {
   text-shadow: 0 0 3px rgba(21,171,195,0.7);
 }
 
-main a,
-main a:hover,
-main a:focus,
-main .btn-link,
-main .btn-link:hover,
-main .btn-link:focus,
-.modal a,
-.modal a:hover,
-.modal a:focus {
+pre {
+  color: rgba(21,171,195,1.0);
+}
+
+a,
+a:hover,
+a:focus,
+.btn-link,
+.btn-link:hover,
+.btn-link:focus {
   color: rgb(36,198,224);
   text-shadow: 0 0 5px rgba(36,198,224,1.0);
   text-decoration: underline;
-}
-
-pre {
-  color: rgba(21,171,195,1.0);
 }
 
 #replay-container {
@@ -124,5 +138,10 @@ pre {
 
 .carousel-inner {
   filter: contrast(140%) sepia(100%) hue-rotate(124deg);
-  box-shadow: 0 0 15px rgb(21,171,195);
+  box-shadow: 0 0 2em rgb(21,171,195);
+}
+
+.navbar-brand,
+.active {
+  font-weight: bold;
 }
