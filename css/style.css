@@ -10,10 +10,6 @@ button {
   cursor: pointer;
 }
 
-ul {
-  margin-bottom: 0;
-}
-
 main {
   color: #e6ffff;
   background-color: #0c141f;
@@ -24,6 +20,11 @@ main a:hover,
 main .btn-link,
 main .btn-link:hover {
   color: #ffe64d;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
 }
 
 /* Sections */
@@ -41,12 +42,19 @@ main .btn-link:hover {
   font-weight: bold;
 }
 
+#faq ul, #faq p:last-child {
+  margin-bottom: 0;
+}
+
+#partners {
+  background-color: #fff;
+}
+
 #partners .row {
-  margin: .5rem 0;
+  padding: .5rem 0;
 }
 
 #umontreal {
-  background-color: #000;
   padding: .5rem 0;
 }
 
@@ -58,6 +66,10 @@ main .btn-link:hover {
   max-height: 64px;
 }
 
-#umontreal .col:nth-child(2) {
+#umontreal ul {
+  margin-bottom: 0;
+}
+
+#umontreal .col-sm:nth-child(2) {
   font-size: smaller;
 }
