@@ -8,7 +8,30 @@ button {
   cursor: pointer;
 }
 
+section {
+  margin-top: 30px;
+}
+
 /* Sections */
+#replay-container {
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 0 15px rgba(21,171,195,0.5);
+}
+
+pre {
+  line-height: 1;
+  color: rgba(21,171,195,1.0);;
+}
+
+.press-start {
+  opacity: 0.5;
+}
+
+.press-start.blink {
+  opacity: 0.9;
+}
+
 
 #schedule th {
   width: 50%;
@@ -29,7 +52,7 @@ margin-bottom: 0;
 
 #umontreal,
 #partners .row {
-  padding: .25rem 0;
+  padding: 1rem 0;
 }
 
 #umontreal a,
@@ -65,7 +88,14 @@ main {
 main h2, main h3 {
   font-weight: bold;
   text-shadow: 0 0 5px rgba(21,171,195,0.7);
+  opacity: 1;
+  transition: opacity 60ms linear;
 }
+
+main h2.no-glow, main h3.no-glow {
+  opacity: 0.2;
+}
+
 
 main h5 {
   text-shadow: 0 0 3px rgba(21,171,195,0.7);
@@ -85,4 +115,12 @@ main .btn-link:focus {
 .carousel-inner {
   filter: contrast(140%) sepia(100%) hue-rotate(124deg);
   box-shadow: 0 0 15px rgb(21,171,195);
+}
+
+.col-lg, .col, ul, table {
+    opacity: 0.9;
+}
+
+.col-lg:hover, .col:hover, ul:hover, table:hover {
+    opacity: 1;
 }
