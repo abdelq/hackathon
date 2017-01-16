@@ -77,12 +77,12 @@ nav a {
 }
 
 nav a:hover {
-  color: rgba(21,171,195,1.0);
+  color: rgba(24,202,230,1.0);
 }
 
 main,
 .modal * {
-  color: rgba(21,171,195,1.0);
+  color: rgba(24,202,230,1.0);
   text-shadow: 0 0 1px rgba(21,171,195,0.7);
 }
 
@@ -109,7 +109,7 @@ h5 {
 }
 
 pre {
-  color: rgba(21,171,195,1.0);
+  color: rgba(24,202,230,1.0);
 }
 
 a,
