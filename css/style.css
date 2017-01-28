@@ -28,8 +28,13 @@ section {
   border: none;
 }
 
+#organizers {
+  margin-bottom: 0;
+}
+
 #partners {
   background-color: #fff;
+  margin-top: 0;
 }
 
 #partners .row {
@@ -64,6 +69,11 @@ body {
 
 main {
   margin-top: 54px;
+
+  background-image: url('../img/tron.png'); /* https://upload.wikimedia.org/wikipedia/commons/4/47/Z_bikes_Tron.png */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 nav,
