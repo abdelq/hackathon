@@ -1,7 +1,7 @@
 $(function() {
   var replays = [];
 
-  $.get('../games.txt', function(data) {
+  $.get('games.txt', function(data) {
     var games = data.split('%');
 
     games.forEach(function(game, i) {
