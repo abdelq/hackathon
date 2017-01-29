@@ -28,6 +28,10 @@ section {
   border: none;
 }
 
+#pictures div * {
+  opacity: 1;
+}
+
 #organizers {
   margin-bottom: 0;
 }
@@ -70,7 +74,7 @@ body {
 main {
   margin-top: 54px;
 
-  background-image: url('../img/tron.png'); /* https://upload.wikimedia.org/wikipedia/commons/4/47/Z_bikes_Tron.png */
+  background-image: url('../img/tron.jpg'); /* https://upload.wikimedia.org/wikipedia/commons/4/47/Z_bikes_Tron.png */
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -137,6 +141,8 @@ a:focus,
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0 0 2em rgba(21,171,195,0.5);
+  background-color: #000;
+  opacity: 1;
 }
 
 .press-start.blink {
