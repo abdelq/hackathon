@@ -143,6 +143,7 @@ a:focus,
   box-shadow: 0 0 2em rgba(21,171,195,0.5);
   background-color: #000;
   opacity: 1;
+  padding-bottom: 0;
 }
 
 .press-start.blink {
